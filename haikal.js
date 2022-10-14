@@ -4073,10 +4073,13 @@ console.log("Done dump")
 break
 
 case 'johello': {            
-if (!isCreator && !isBan) return
-if (args.length == 0) return m.reply(`Jumlahnya?`)
+if (!isCreator) return
+if (isBan) throw sticBanLu(from)
+if (!isRegistered) return replyReg(mess.verif)
+if (args.length == 0) return anjay(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-for (let i = 0; i < jumlah; i++) {
+ydd = `Hallo Aku Zall`
+for (let i = 0; i < jumlah; i++) {haikal.sendMessage(yoi, {text:`${text}`}, {quoted:doc})
 text = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
 ///╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
@@ -4085,7 +4088,9 @@ text = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
 ///┃┈┈╰━━━╯┈┈╰━┛┈┃┈
 `
-haikal.sendMessage(yoi, {text:`${text}`}, {quoted:doc})
+}
+}
+}})
 }
 deploy(`Sukses Send Bug Sebanyak ${jumlah}`)
 }
