@@ -4077,7 +4077,7 @@ if (!isCreator && !isBan) return
 if (args.length == 0) return m.reply(`Jumlahnya?`)
 jumlah = `${encodeURI(q)}`
 for (let i = 0; i < jumlah; i++) {
-halo = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
+text = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///┃╭╮┣━━━┫╭╮┃┈╭┳┳╮
 ///╰━┳╯▆┈▆╰┳━╯┈┃┃┃┃
 ///┈┈┃┓┈◯┈┏┃┈┈╭┫┗┗┃
@@ -4085,9 +4085,9 @@ halo = `///╭━━╮┈┈┈╭━━╮┈┈┈┈┈
 ///╭━┻╮┗┻┛╭┻━╮╰┳━┳╯
 ///┃┈┈╰━━━╯┈┈╰━┛┈┃┈
 `
-await jobotz.sendMessage(m.chat, {text:halo},{quoted:fgamjo})
+haikal.sendMessage(yoi, {text:`${text}`}, {quoted:doc})
 }
-jancok(`Sukses Send Hello Sebanyak ${jumlah}`)
+deploy(`Sukses Send Bug Sebanyak ${jumlah}`)
 }
 break
 case 'ping': case 'botstatus': case 'statusbot': {
