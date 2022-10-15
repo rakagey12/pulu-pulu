@@ -1,5 +1,5 @@
 {
-"name": "Zall-hw",
+"name": "haikal-hw",
 "version": "1.2.3",
 "description": "WhatsApp Using Lib Baileys Multi Device",
 "main": "kalgans.js",
@@ -18,10 +18,10 @@
 "bot-md",
 "multi-device"
 ],
-"author": "Zall Maker.",
+"author": "Haikal Hw.",
 "license": "MIT",
 "dependencies": {
-"@adiwajshing/baileys": "^4.1.0",
+"@adiwajshing/baileys": "^4.4.0",
 "@adiwajshing/keyed-db": "^0.2.4",
 "awesome-phonenumber": "^2.64.0",
 "axios": "^0.24.0",
@@ -73,5 +73,5 @@
 "bugs": {
 "url": "https://github.com/HW-XMTeam/Haikal-Morou/issues"
 },
-"homepage": "Zall Maker"
+"homepage": "https://github.com/HW-XMTeam/Haikal-Morou#readme"
 }
